@@ -1,0 +1,35 @@
+.list-item {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.drag-option {
+    cursor: move;
+}
+
+.btn-focus:focus {
+    box-shadow: none;
+}
+
+.title-button{
+    width: 50%;
+}
+
+.canvas-items {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+@media (max-width: 600px) {
+    .canvas-items{
+        width: 100%;
+        left: 0;
+    }
+    
+}
